@@ -31,28 +31,15 @@ Rails是一套使用Ruby的Web框架，如果你对Ruby一无所知，你会发�
 Rails是什么？
 --------------
 
+Rails是一个用Ruby语言写的Web应用开发框架。它的设计目的是只要开发者熟悉它的惯例，它就可以让开发互联网应用变得很简单。对比其他开发框架，在完成同种任务时它可以使你少写很多代码。
+有经验的Rails开发者还反馈说它时开发变得更有趣了。
 
-Rails is a web application development framework written in the Ruby language.
-It is designed to make programming web applications easier by making assumptions
-about what every developer needs to get started. It allows you to write less
-code while accomplishing more than many other languages and frameworks.
-Experienced Rails developers also report that it makes web application
-development more fun.
+Rails是“有主见（Opinionated）”的软件。它预先假定事情拥有“最佳解”，然后它会鼓励你这样做——而不是使用其它方法。如果你学会了“Rails的方法”，你的生产力将会得到很大的提高。反之，如果你带着从写其他语言代码中习得的习惯开发Rails，你可能会拥有一段不怎么愉快的经历。
 
-Rails is opinionated software. It makes the assumption that there is the "best"
-way to do things, and it's designed to encourage that way - and in some cases to
-discourage alternatives. If you learn "The Rails Way" you'll probably discover a
-tremendous increase in productivity. If you persist in bringing old habits from
-other languages to your Rails development, and trying to use patterns you
-learned elsewhere, you may have a less happy experience.
+Rails的哲学包括以下两个指导思想:
 
-The Rails philosophy includes two major guiding principles:
-
-* DRY - "Don't Repeat Yourself" - suggests that writing the same code over and
-  over again is a bad thing.
-* Convention Over Configuration - means that Rails makes assumptions about what
-  you want to do and how you're going to do it, rather than requiring you to
-  specify every little thing through endless configuration files.
+* DRY - "不要重复你自己（Don't Repeat Yourself）" - 即写重复的代码是件很糟糕的事情。
+* 约定高于设定（Convention Over Configuration） - Rails会设想你想做什么及你如何去做，而不会要求你将所有细节都写进详尽的设定文件中。
 
 Creating a New Rails Project
 ----------------------------
