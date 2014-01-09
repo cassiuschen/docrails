@@ -41,53 +41,40 @@ Rails的哲学包括以下两个指导思想:
 * DRY - "不要重复你自己（Don't Repeat Yourself）" - 即写重复的代码是件很糟糕的事情。
 * 约定高于设定（Convention Over Configuration） - Rails会设想你想做什么及你如何去做，而不会要求你将所有细节都写进详尽的设定文件中。
 
-Creating a New Rails Project
+新建一个Rails应用
 ----------------------------
 
-The best way to use this guide is to follow each step as it happens, no code or
-step needed to make this example application has been left out, so you can
-literally follow along step by step. You can get the complete code
-[here](https://github.com/rails/docrails/tree/master/guides/code/getting_started).
+学习这份指南最好的方法就是跟随这份指南，一步步制作。没有哪一步可以被省略，所以你可以逐步逐句地跟着指南完成代码。你也可以在[这里](https://github.com/rails/docrails/tree/master/guides/code/getting_started)得到完整的代码。
 
-By following along with this guide, you'll create a Rails project called
-`blog`, a
-(very) simple weblog. Before you can start building the application, you need to
-make sure that you have Rails itself installed.
+跟随这份指南，你讲创建一个名叫`blog`的简易博客。在开始建立Rails程序之前，你需要确保Rails安装妥当。
 
-TIP: The examples below use `#` and `$` to denote superuser and regular
-user terminal prompts respectively in a UNIX-like OS. If you are using
-Windows, your prompt will look something like `c:\source_code>`
+TIP: 在下述的指南中，我们将用 `#` 和 `$` 来分别描述超级管理员和普通用户在一个类UNIX系统的命令行中的命令，如果你使用的是Windows，那么你的命令可能会看起来形如`c:\source_code>`
 
-### Installing Rails
+### 安装Rails
 
-Open up a command line prompt. On Mac OS X open Terminal.app, on Windows choose
-"Run" from your Start menu and type 'cmd.exe'. Any commands prefaced with a
-dollar sign `$` should be run in the command line. Verify that you have a
-current version of Ruby installed:
+打开命令行工具。在Mac OS X上请打开终端（Terminal,在Windows上请在开始菜单中找到“运行”然后输入'cmd.exe'。指南中“$”开头的命令都需要在命令行中输入。首先确认你安装了近期的Ruby版本：
 
 ```bash
 $ ruby -v
-ruby 2.0.0p353
+ruby 2.1.0p0
 ```
 
-To install Rails, use the `gem install` command provided by RubyGems:
+使用RubyGem提供的命令`gem install`来安装Rails：
 
 ```bash
 $ gem install rails
 ```
 
-TIP. A number of tools exist to help you quickly install Ruby and Ruby
-on Rails on your system. Windows users can use [Rails Installer](http://railsinstaller.org),
-while Mac OS X users can use [Rails One Click](http://railsoneclick.com).
+TIP. 有一些现有的工具可以帮助你在系统上快速安装Ruby和Rails。 Windows用户可以使用[Rails Installer](http://railsinstaller.org)来安装,
+Mac用户则可以使用[Rails One Click](http://railsoneclick.com)来安装.
 
-To verify that you have everything installed correctly, you should be able to
-run the following:
+为了确认所有软件安装妥当，你应该可以成功地运行下列语句:
 
 ```bash
 $ rails --version
 ```
 
-If it says something like "Rails 4.0.0", you are ready to continue.
+如果它显示类似于 "Rails 4.1.0", 说明你可以继续了。
 
 ### Creating the Blog Application
 
