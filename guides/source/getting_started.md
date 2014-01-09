@@ -1,42 +1,36 @@
-Getting Started with Rails
+开始使用Rails
 ==========================
 
-This guide covers getting up and running with Ruby on Rails.
+这个指南涵盖了如何建立与使用Ruby on Rails
 
-After reading this guide, you will know:
+阅读该文档后，你将知道:
 
-* How to install Rails, create a new Rails application, and connect your
-  application to a database.
-* The general layout of a Rails application.
-* The basic principles of MVC (Model, View, Controller) and RESTful design.
-* How to quickly generate the starting pieces of a Rails application.
+* 如何安装Rails、如何新建你的Rails应用，以及如何将你的应用与数据库连接起来。
+* Rails应用程序的整体框架。
+* MVC (`Model`, `View`, `Controller`) 的基本原理及`RESTful`接口的设计。
+* 如何快速生成Rails应用的起始代码片段。
 
 --------------------------------------------------------------------------------
 
-Guide Assumptions
+前提条件
 -----------------
 
-This guide is designed for beginners who want to get started with a Rails
-application from scratch. It does not assume that you have any prior experience
-with Rails. However, to get the most out of it, you need to have some
-prerequisites installed:
+这份指南建立的目的是帮助初学者从头开始学习Rails应用，而不需要有任何的Rails开发经验。不过为了能看懂指南，你还是需要安装一些前提条件:
 
-* The [Ruby](http://www.ruby-lang.org/en/downloads) language version 1.9.3 or newer
-* The [RubyGems](http://rubygems.org) packaging system
-    * To learn more about RubyGems, please read the [RubyGems Guides](http://guides.rubygems.org)
-* A working installation of the [SQLite3 Database](http://www.sqlite.org)
+* [Ruby语言](http://www.ruby-lang.org/en/downloads) 版本 1.9.3 或更新版本
+* [RubyGems](http://rubygems.org) 套件管理系统
+    * 为了学习`RubyGems`，你可以阅读 [RubyGems Guides](http://guides.rubygems.org)
+* 一个可运行的 [SQLite3数据库](http://www.sqlite.org)
 
-Rails is a web application framework running on the Ruby programming language.
-If you have no prior experience with Ruby, you will find a very steep learning
-curve diving straight into Rails. There are some good free resources on the
-Internet for learning Ruby, including:
+Rails是一套使用Ruby的Web框架，如果你对Ruby一无所知，你会发觉学习Rails十分艰难。以下是一些很好的免费互联网资源供你学习Ruby：
 
 * [Mr. Neighborly's Humble Little Ruby Book](http://www.humblelittlerubybook.com)
 * [Programming Ruby](http://www.ruby-doc.org/docs/ProgrammingRuby/)
 * [Why's (Poignant) Guide to Ruby](http://mislav.uniqpath.com/poignant-guide/)
 
-What is Rails?
+Rails是什么？
 --------------
+
 
 Rails is a web application development framework written in the Ruby language.
 It is designed to make programming web applications easier by making assumptions
